@@ -6,7 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+// definicion de la entidad PRODUCTO, asi como el mapeo de sus campos en la base de datos
 @Entity
 @Table(name = "PRODUCTO")
 public class Producto {
